@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+    /*var lyrics = "Swing [D]low, sweet [G]chari[D]ot,";
+    var chordpro = require("chordpro.js");
+    var formatResult = chordpro.to_txt(lyrics);*/
+    var chordpro = require("chordpro.js");
+var song = "[C]Twinkle [C/E]twinkle [F]little [C]star\n" +
+           "[F]How I [C]wonder [G]what you [C]are\n";
+var output = chordpro.to_txt(song);
+
+    document.getElementById("demo").innerHTML = output;
+</script>
+
+</body>
+</html> 

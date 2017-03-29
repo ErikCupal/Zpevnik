@@ -1,0 +1,84 @@
+.song-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.song-subtitle {
+  font-size: large;
+  font-weight: bold;
+}
+
+.song-lyrics {
+  white-space: pre;
+  display: block;
+}
+
+.song-lyrics-whitespace {
+  font-family: monospace;
+  display: inline-block;
+}
+
+.song-line {
+  overflow: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.song-linesegment {
+  display: inline-block;
+}
+
+.song-chord {
+  font-weight: bold;
+  white-space: pre;
+  display: block;
+}
+
+.song-chord-nolyrics {
+  font-weight: bold;
+  white-space: pre;
+  display: inline-block;
+}
+
+.song-comment {
+    background: lightgray;
+    padding: 2px;
+}
+
+.song-soc {
+    padding-left: 10px;
+    position: relative;
+}
+
+.song-soc:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    bottom: 3px;
+    left: 0%;
+    border-left: 7px solid gray;
+}
+
+.song-sot {
+  font-family: monospace;
+}
+
+.song-soh {
+    padding-left: 10px;
+    position: relative;
+}
+
+.song-soh:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    bottom: 3px;
+    left: 0%;
+    border-left: 7px solid red;
+}
