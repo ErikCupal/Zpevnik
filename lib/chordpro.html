@@ -4,16 +4,13 @@
 
 <p id="demo"></p>
 
+<script src="chordpro.js"></script>
 <script>
-    /*var lyrics = "Swing [D]low, sweet [G]chari[D]ot,";
-    var chordpro = require("chordpro.js");
-    var formatResult = chordpro.to_txt(lyrics);*/
-    var chordpro = require("chordpro.js");
-var song = "[C]Twinkle [C/E]twinkle [F]little [C]star\n" +
-           "[F]How I [C]wonder [G]what you [C]are\n";
-var output = chordpro.to_txt(song);
+    var song = "[C]Twinkle [C/E]twinkle [F]little [C]star\n" +
+            "[F]How I [C]wonder [G]what you [C]are\n";
+    var output = chordPro.toTxt(song);
 
-    document.getElementById("demo").innerHTML = output;
+    document.getElementById("demo").innerHTML = '<pre>' + output + '</pre>';
 </script>
 
 </body>
